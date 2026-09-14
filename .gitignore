@@ -1,0 +1,20 @@
+# === macOS / editor noise ===
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# === Working paper draft (kept locally, not in git or CoMSES) ===
+Emergent_Order_Institutional_Collapse_Working_Paper_*.md
+Emergent_Order_Institutional_Collapse_Working_Paper_*.pdf
+
+# === Data (public source, not redistributed via git — see README; goes to CoMSES) ===
+data/
+
+# === All simulation outputs, checkpoints, and figures ===
+# Regeneratable from code + data, or destined for the CoMSES/OpenABM
+# archive rather than git history. Git tracks code only.
+analysis/
+
+# === Backup files created during manual header edits ===
+*.bak
